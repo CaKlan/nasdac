@@ -1,6 +1,8 @@
 # 프로젝트 규칙
 
-# 폴더 구조
+
+
+> # 폴더 구조
 ```
 src
  ├ components/   <!-- 재사용 가능한 모듈 (ex Header, Footer) -->
