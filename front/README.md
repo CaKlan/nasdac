@@ -1,7 +1,7 @@
 # 프로젝트 규칙
 
 # 폴더 구조
-
+```
 src
  ├ components/   <!-- 재사용 가능한 모듈 (ex Header, Footer) -->
     └ Header/
@@ -16,11 +16,12 @@ src
  ├ App.tsx       <!-- 라우터, 네비게이션 설정 -->
  ├ index.css
  └ index.tsx     <!-- 건드릴 필요 X -->
-
+```
 
 # 명명 규칙
 함수형 컴포넌트
 ex) 
+```
 // Header/index.tsx
 
 import "./styles.css";
@@ -58,3 +59,4 @@ in Header/styles.css
 .Header .sub_class {
     ...
 }
+```
