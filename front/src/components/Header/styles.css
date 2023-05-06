@@ -1,0 +1,15 @@
+.Header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    width: 100%;
+    height : 50px;
+    background-color : var(--main-background);
+}
+
+.Header .logo{
+    width:50px;
+    height:50px;
+}
+

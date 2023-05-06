@@ -1,0 +1,70 @@
+
+.WebHosting {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    min-height : 1000px;
+    background-color:var(--main-background);
+    
+}
+
+.WebHosting .direct_service{
+    display:flex;
+    position:relative;
+    margin-top:100px;
+    width:1500px;
+    height:500px;
+    margin: 100px 100px 0px 100px;
+}
+
+/*#web_hosting*/
+.WebHosting .web_hosting{
+    display:flex;
+    height:300px;
+    position:absolute;
+    width:1500px;
+    height:100%;
+    border:1px solid var(--main-elem1);
+    margin-right: -1px;
+    flex-grow : 1;
+    transition: width 0.5s, border 1s;
+    overflow:hidden;
+    background-color: var(--main-elem1);
+    color:white;
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 10px blueviolet;
+}
+
+.WebHosting .wh_contact{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right:auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.WebHosting .wh_description{
+    width:300px;
+    margin : 10px;
+    margin-right : 30px;
+}
+
+.WebHosting .wh_button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 300px;
+    height : 70px;
+    margin : 10px;
+    flex : 0 0 auto;
+    color: white;
+    background-color:rgb(85, 85, 85);
+    margin-top : auto;
+    
+}
+
