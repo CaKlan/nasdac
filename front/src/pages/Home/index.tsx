@@ -109,6 +109,7 @@ function Home() {
                     </div>
                     {whOver &&
                         <div style={{ width: "300px", margin: "10px", marginRight: "60px" }}>
+                            <br/>
                             <h3>인프라</h3>
                             <div style={{ textAlign: "start" }}>
                                 <ul className="detail" ref={detail}>
@@ -164,6 +165,7 @@ function Home() {
 
                     {dbOver &&
                         <div style={{ width: "300px", margin: "10px", marginLeft: "60px" }}>
+                            <br/>
                             <h3>인프라</h3>
                             <div style={{ textAlign: "start" }}>
                                 <ul>

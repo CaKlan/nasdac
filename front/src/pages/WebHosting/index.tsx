@@ -4,11 +4,17 @@ import Header from '../../components/Header';
 
 function WebHosting(){
 
+    const direct_service = useRef<HTMLDivElement>(null);
+
+    useEffect(()=>{
+        console.log('expand');
+        
+    }, [])
     return (
         <div className="WebHosting">
             <Header />
             
-            <div className="direct_service" >
+            <div className="direct_service" ref={direct_service} onClick={(e)=>{e.currentTarget.style.setProperty('height', '1000px')}}>
                 <div className="web_hosting">
                     <div className="wh_contact"> {/* wh : Web Hosting*/}
                         <p style={{fontSize:"30px",fontWeight:"bold",marginBottom:"-30px"}}>웹 호스팅을</p>
@@ -24,6 +30,7 @@ function WebHosting(){
                         </div>
                     </div>
                     <div  style={{width:"300px", margin:"10px", marginRight:"60px"}}>
+                        <br/>
                         <h3>인프라</h3>
                         <div style={{textAlign:"start"}}>
                             <ul>
@@ -44,6 +51,9 @@ function WebHosting(){
                         <p>AMD 기반의 빠른 VM과 넉넉한 용량의 데이터 베이스를 경험해보세요.</p>
                         <p>AMD 기반의 빠른 VM과 넉넉한 용량의 데이터 베이스를 경험해보세요.</p>
                     </div>
+                    
+                </div>
+                <div className="information">
                     
                 </div>
             </div>

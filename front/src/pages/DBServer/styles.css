@@ -26,12 +26,12 @@
     width:1500px;
     height:100%;
     border:1px solid var(--main-elem1);
-    flex-grow : 1;
     overflow:hidden;
     background-color: var(--main-elem1);
     color:white;
-    border: 1px solid blueviolet;
-    box-shadow: 0 0 10px blueviolet;
+    animation: pulse 10s infinite;
+    
+
 }
 
 .DBServer .db_contact{
@@ -64,3 +64,17 @@
     
 }
 
+@keyframes pulse{
+    0% {
+        border-color: blueviolet;
+        box-shadow: 0 0 15px blueviolet;
+    }
+    50% {
+        border-color: var(--main-elem1);
+        box-shadow: 0 0 5px blueviolet;
+    }
+    100% {
+        border-color: blueviolet;
+        box-shadow: 0 0 15px blueviolet;
+    }
+}

@@ -22,6 +22,7 @@ function DBServer() {
                         <p>AMD 기반의 빠른 VM과 넉넉한 용량의 데이터 베이스를 경험해보세요.</p>
                     </div>
                     <div style={{ width: "300px", margin: "10px", marginLeft: "60px" }}>
+                        <br/>
                         <h3>인프라</h3>
                         <div style={{ textAlign: "start" }}>
                             <ul>
